@@ -1,0 +1,5 @@
+---
+- name: Create AD users and groups
+  hosts: windows
+  roles: 
+    - win_ad_user
